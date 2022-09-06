@@ -1,0 +1,103 @@
+._container{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    height: auto;
+    text-align: start;
+}
+
+.coursesImg{
+
+    width: 20%;
+    height: 240px;
+    margin-top:50px;
+    
+    
+    /*background-color: red;*/
+    
+}
+.coursephotot{
+
+    /*border: .5px solid rgb(70, 177, 180);*/
+    display: flex;
+
+}
+
+.imgger{
+
+    border: 1px solid rgb(36, 149, 149);
+    width: 98%;
+
+}
+
+.imgger  :hover{
+    cursor: pointer;
+}
+
+.instructor_name:hover{
+    cursor: pointer;
+}
+.course_details{
+    margin-top: 10px;
+
+}
+
+.course_details a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+    
+}
+
+
+
+.instructor_name{
+    margin: 5px 0;
+    font-size: .9rem;
+    color: rgb(109, 115, 121);
+    display: block;
+}
+  
+.rate_of_course{
+
+    font-size:large;
+    font-weight: 600;
+    color: orange;
+    margin-right: 7px;
+
+}
+
+.price_of_course{
+
+    display: block;
+    margin: 5px 0;
+    font-size: 1.0rem;
+    font-weight: 600;
+    display: block;
+
+
+}
+
+@media (min-width: 0px) and (max-width: 428px){
+
+    .coursesImg{
+
+        margin: 50px 0;
+        width: 97%;
+    }
+}
+
+@media (min-width: 429px) and (max-width: 815px) {
+
+    .coursesImg{
+
+        margin: 50px 0;
+        width: 46%;
+    }
+}

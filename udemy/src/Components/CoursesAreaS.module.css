@@ -1,0 +1,150 @@
+.course_area{
+
+    padding:31px ;
+    text-align: start;
+}
+
+
+
+.hI{
+
+
+}
+
+.pp{
+
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color:rgb(62, 46, 46);
+}
+
+.list_of_courses{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 869px;
+
+}
+
+
+.list_of_courses button{
+
+
+    border: 0;
+    background-color: white;
+    text-decoration: none;
+    color: rgb(108, 97, 102);
+
+    font-size: 1rem;
+    font-weight: 700;
+
+
+}
+
+.list_of_courses button :hover{
+    cursor: pointer;
+    color: black;
+}
+.linker:hover{
+    cursor: pointer;
+    color: black;
+}
+#_active{
+
+    color: black;
+
+}
+
+
+.content_area{
+
+
+    width: 100%;
+    height: auto;
+    background-color:white;
+    padding: 30px;
+    margin-top: 20px;
+    border: 1px solid black;
+
+}
+
+.courses_area_p{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 10px;
+    color: rgb(66, 53, 59);
+}
+
+._explore{
+
+    margin-top: 20px;
+    background-color: white;
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 1px solid black;
+    font-weight: 500;
+
+}
+
+
+@media (min-width: 0px) and (max-width: 428px) {
+
+
+    .course_area{
+        margin-top: 176px;
+    }
+
+    .list_of_courses{
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+    .course_area h1{
+        font-size: 1.5rem;
+    }
+    .list_of_courses button{
+
+        font-size: 0.9rem;
+        margin-top: 11px;
+    }
+    
+    ._container{
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+
+}
+
+@media (min-width: 429px) and (max-width: 815px) {
+
+    .course_area{
+        margin-top: 209px;
+    }
+
+    .list_of_courses{
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+    .course_area h1{
+        font-size: 1.5rem;
+    }
+    .list_of_courses button{
+
+        font-size: 0.9rem;
+        margin-top: 11px;
+    }
+    
+    ._container{
+        align-self: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+
+}
